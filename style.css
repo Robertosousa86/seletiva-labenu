@@ -33,6 +33,58 @@
   height: 115px
 }
 
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.flex-green {
+  width: 140px;
+  height: 100px;
+  padding: 20px;
+  margin: 10px;
+  top: 2px;
+  background-color: #94c47d;
+  font-size: xx-large;
+  text-align: center;
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.flex-red {
+  width: 140px;
+  height: 100px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #e06666;
+  font-size: xx-large;
+  text-align: center;
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.flex-blue {
+  width: 140px;
+  height: 100px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #6d9eeb;
+  font-size: xx-large;
+  text-align: center;
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+
+
 footer {
   display: flex;
   flex-direction: row;
