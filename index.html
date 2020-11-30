@@ -12,10 +12,25 @@
 </head>
 
 <body>
-  <header class="header">
-    <h1>Projeto Seletivo Labenu</h1>
-  </header>
-  <footer class="footer"></footer>
+  <div class="main">
+    <header class="header">
+      <h1>Projeto Seletivo Labenu</h1>
+    </header>
+    <div class="logo">
+      <img src="./img/Labenu_logo.png" alt="Logo Labenu">
+    </div>
+    <footer class="footer">
+      <form>
+        <div class="footer-email">
+          <div class="form-group">
+            <input class="form-field" type="email" name="email" id="email"
+              placeholder="Coloque seu e-mail para contato!:)">
+            <button type="submit" onclick="validaEmail(form.email.value)">ENVIAR</button>
+          </div>
+        </div>
+      </form>
+    </footer>
+  </div>
 </body>
 
 </html>

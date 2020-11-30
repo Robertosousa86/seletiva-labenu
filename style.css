@@ -13,12 +13,24 @@
 }
 
 .header h1 {
-  color: #fbf1ec;
+  color: #ffffff;
   font-size: 28px;
   text-align: center;
   position: relative;
   top: 18%;
-  background-color: #cd4d00
+  background-color: #cd4d00;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.logo img {
+  width: 275px;
+  height: 115px
 }
 
 footer {
@@ -31,7 +43,35 @@ footer {
   background-color: #d8d8d8;
 }
 
+.footer-email {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  left: 50%;
+  top: 35%;
+  position: absolute;
+  transform: translateX(-50%);
+}
 
+.form-group {
+  display: flex;
+  min-width: auto;
+  justify-content: space-around;
+  position: relative;
+}
 
-
-
+.form-group input {
+  display: flex;
+  height: auto;
+  min-width: 400px;
+  max-width: auto;
+  font-size: medium;
+  background-color: #ffffff;
+}
+button {
+  height: 45px;
+  width: 80px;
+  background-color: #cd4d00;
+  color: #ffffff;
+  font-size: medium;
+}
